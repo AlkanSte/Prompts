@@ -6,7 +6,7 @@ Below is an updated Markdown document that expands on our original encyclopedia 
 
 # LLM Prompting Techniques Encyclopedia
 
-This repository is a comprehensive library of prompting techniques for large language models (LLMs) drawn from *The Prompt Report: A Systematic Survey of Prompt Engineering Techniques* citeturn0file0 and supplemented with the latest advancements from 2024 and early 2025. Our goal is to serve researchers and practitioners with a structured, detailed, and up-to-date guide covering foundational methods as well as emerging techniques.
+This repository is a comprehensive library of prompting techniques for large language models (LLMs) drawn from *The Prompt Report: A Systematic Survey of Prompt Engineering Techniques* and supplemented with the latest advancements from 2024 and early 2025. Our goal is to serve researchers and practitioners with a structured, detailed, and up-to-date guide covering foundational methods as well as emerging techniques.
 
 ---
 
@@ -14,10 +14,10 @@ This repository is a comprehensive library of prompting techniques for large lan
 
 Effective prompting is a cornerstone of working with LLMs. It involves designing inputs that guide models to produce accurate, creative, and reliable outputs without fine-tuning model parameters. Over the past few years—and especially in the last eight months—new methods have emerged, extending the original taxonomy to include advanced meta prompting, dynamic optimization, self-reflection, and tool integration. The techniques presented here not only cover classic methods like In-Context Learning and Chain-of-Thought prompting but also highlight innovations such as:
 
-- **Meta Prompting**: Using LLMs to generate, refine, and optimize their own prompts citeturn0search3.
-- **Dynamic Prompt Optimization**: Real-time refinement techniques such as Active Prompting and Automatic Prompt Engineering (APE) citeturn0search8, citeturn0academia20.
-- **Reflection and Self-Consistency**: New approaches that incorporate internal deliberation and self-monitoring to improve reasoning accuracy citeturn0search32.
-- **Tool Use and Retrieval-Augmented Generation (RAG)**: Combining external knowledge sources and programmatic calls to enhance output quality citeturn0search11.
+- **Meta Prompting**: Using LLMs to generate, refine, and optimize their own prompts.
+- **Dynamic Prompt Optimization**: Real-time refinement techniques such as Active Prompting and Automatic Prompt Engineering (APE).
+- **Reflection and Self-Consistency**: New approaches that incorporate internal deliberation and self-monitoring to improve reasoning accurac.
+- **Tool Use and Retrieval-Augmented Generation (RAG)**: Combining external knowledge sources and programmatic calls to enhance output quality.
 
 Together, these techniques allow users to adapt prompts for diverse tasks—from simple Q&A and sentiment analysis to advanced reasoning, planning, and even controlling physical systems. The field continues to evolve rapidly, blurring the lines between human-like reasoning and automated prompt optimization.
 
@@ -168,7 +168,7 @@ Revised answer: "The capital of France is Paris."
 - Improving output reliability
 
 **Commentary:**  
-Reflection and self-criticism make LLMs more robust by identifying and correcting errors during inference citeturn0search32.
+Reflection and self-criticism make LLMs more robust by identifying and correcting errors during inference.
 
 ---
 
@@ -189,7 +189,7 @@ Improve the following prompt: "Summarize the benefits of renewable energy."
 - Iterative improvement of instructions
 
 **Commentary:**  
-Meta prompting has evolved rapidly, with new tools and techniques emerging that reduce human intervention in crafting effective prompts citeturn0search3.
+Meta prompting has evolved rapidly, with new tools and techniques emerging that reduce human intervention in crafting effective prompts.
 
 ---
 
@@ -209,7 +209,7 @@ Score each variant based on clarity and accuracy, then select the best one.
 - Tasks with high variability in desired output
 
 **Commentary:**  
-APE and active prompting leverage search and reinforcement techniques to continuously improve prompt quality citeturn0academia20.
+APE and active prompting leverage search and reinforcement techniques to continuously improve prompt quality.
 
 ---
 
@@ -228,7 +228,7 @@ Prompt chaining: Use the output from a first prompt as the input for a second pr
 - Adaptive decision-making tasks
 
 **Commentary:**  
-Dynamic optimization is crucial for tasks requiring immediate context updates and external data integration citeturn0search11.
+Dynamic optimization is crucial for tasks requiring immediate context updates and external data integration.
 
 ---
 
@@ -277,7 +277,7 @@ Task: Summarize the key findings from the latest research paper on climate chang
 ```
 
 **Commentary:**  
-These methods extend LLM capabilities beyond text, allowing integration with external knowledge and real-world data citeturn0search11.
+These methods extend LLM capabilities beyond text, allowing integration with external knowledge and real-world data.
 
 ---
 
@@ -297,7 +297,7 @@ Prompt injection is a security vulnerability where malicious inputs force the LL
 - **Isolation of Sensitive Instructions:** Prevent exposure of system-level prompts.
 
 **Commentary:**  
-Effective mitigation is essential to secure AI systems, especially as they become integrated into critical applications citeturn0news34.
+Effective mitigation is essential to secure AI systems, especially as they become integrated into critical applications.
 
 ---
 
@@ -307,7 +307,7 @@ Effective mitigation is essential to secure AI systems, especially as they becom
 - **Explainability and Transparency:** Developing methods to expose internal reasoning without compromising security.
 - **Adaptive and Personalized Prompting:** Tailoring prompts based on user feedback in real time.
 - **Robust Multi-Modal Integration:** Improving how LLMs handle combined text, images, and other data.
-- **Dual-Use Challenges:** Addressing ethical concerns as more advanced reasoning capabilities are developed, ensuring AI benefits outweigh risks citeturn0news30.
+- **Dual-Use Challenges:** Addressing ethical concerns as more advanced reasoning capabilities are developed, ensuring AI benefits outweigh risks.
 
 ---
 
